@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+  --foreground-rgb: 04, 15, 15;
+  --background-rgb: 245, 245, 244;
+  --white-color: 245, 245, 244;
+  --main-color-rgb: 14, 104, 49;
+  --secondary-color: 15, 142, 56;
+  /* --third-color:  */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 245, 245, 244;
+    --background-rgb: 04, 15, 15;
+    --main-color-rgb: 14, 104, 49;
+    --secondary-color: 15, 142, 56;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  min-height: 100dvh;
+  font-family: "Montserrat", sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-white {
+    color: rgb(var(--white-color));
+  }
+
+  .text-main {
+    color: rgb(var(--main-color-rgb));
+  }
+
+  .pattern {
+    background-image: url('../../public/image/bg-card.png');
+    background-size: cover;
+    background-attachment: local;
+    background-clip: border-box;
+    background-blend-mode: overlay;
+  }
+
+  .pattern-depoimentos {
+    background-image: url('../../public/image/bg-card.png');
+    background-size: 300%;
+    background-attachment: local;
+    background-clip: border-box;
+    background-blend-mode: overlay;
+  }
+
+
+  .bg-main{
+    background-color: #0E6835;
+  }
+
+  .bg-secondary {
+    background-color: #0F8E38;
+  }
+
+
+
+  .anime-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: .3s ease-out all;
+  }
+
+  .anime-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: .3s ease-out all;
+  }
+
+  .anime-init{
+    transform: translateX(0);
+    transition: .3s ease-in all;
+    opacity: 1;
+  }
+
+  .header {
+    width: 100%; 
+    height: 75vh;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Mobile */
+
+  @media screen and (max-width:1024px) {
+
+    .anime-header{
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+
+    .header {
+      height: calc(75dvh);
+      opacity: 1;
+      transform: translateY(0);
+      transition: .4s ease-out all;
+
+    }  
+
+    .background-header{
+      background: url('../../public/image/01.jpg');
+      background-size: cover ;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .header>div{
+      background: rgba(var(--background-rgb), 0.35);
+      backdrop-filter: blur(4px);
+    }
+  }
+  
+}
