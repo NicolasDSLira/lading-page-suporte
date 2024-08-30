@@ -1,0 +1,33 @@
+<svg width="190" height="56" viewBox="0 0 190 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="mask0_174_415" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="13" width="30" height="30">
+    <rect y="13" width="30" height="30" fill="#0E6835"/>
+    </mask>
+    <g mask="url(#mask0_174_415)">
+    <path d="M7.28125 39.25L9.3125 30.4688L2.5 24.5625L11.5 23.7812L15 15.5L18.5 23.7812L27.5 24.5625L20.6875 30.4688L22.7188 39.25L15 34.5938L7.28125 39.25Z" fill="#0E6835"/>
+    </g>
+    <mask id="mask1_174_415" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="40" y="13" width="30" height="30">
+    <rect x="40" y="13" width="30" height="30" fill="#0E6835"/>
+    </mask>
+    <g mask="url(#mask1_174_415)">
+    <path d="M47.2812 39.25L49.3125 30.4688L42.5 24.5625L51.5 23.7812L55 15.5L58.5 23.7812L67.5 24.5625L60.6875 30.4688L62.7188 39.25L55 34.5938L47.2812 39.25Z" fill="#0E6835"/>
+    </g>
+    <mask id="mask2_174_415" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="80" y="13" width="30" height="30">
+    <rect x="80" y="13" width="30" height="30" fill="#0E6835"/>
+    </mask>
+    <g mask="url(#mask2_174_415)">
+    <path d="M87.2812 39.25L89.3125 30.4688L82.5 24.5625L91.5 23.7812L95 15.5L98.5 23.7812L107.5 24.5625L100.688 30.4688L102.719 39.25L95 34.5938L87.2812 39.25Z" fill="#0E6835"/>
+    </g>
+    <mask id="mask3_174_415" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="120" y="13" width="30" height="30">
+    <rect x="120" y="13" width="30" height="30" fill="#0E6835"/>
+    </mask>
+    <g mask="url(#mask3_174_415)">
+    <path d="M127.281 39.25L129.313 30.4688L122.5 24.5625L131.5 23.7812L135 15.5L138.5 23.7812L147.5 24.5625L140.688 30.4688L142.719 39.25L135 34.5938L127.281 39.25Z" fill="#0E6835"/>
+    </g>
+    <mask id="mask4_174_415" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="160" y="13" width="30" height="30">
+    <rect x="160" y="13" width="30" height="30" fill="#0E6835"/>
+    </mask>
+    <g mask="url(#mask4_174_415)">
+    <path d="M167.281 39.25L169.313 30.4688L162.5 24.5625L171.5 23.7812L175 15.5L178.5 23.7812L187.5 24.5625L180.688 30.4688L182.719 39.25L175 34.5938L167.281 39.25Z" fill="#0E6835"/>
+    </g>
+    </svg>
+    
